@@ -1,0 +1,6 @@
+/build
+/app/src/androidTest
+/app/src/test
+/app/build.gradle
+/app/proguard-rules.pro
+/app/src/main/res/layout/activity_info.xml

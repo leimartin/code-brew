@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Code Brew</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="a_food_delivery_app_is_a_convenient_and_efficient_way_for_customers_to_enjoy_their_favorite_snacks_from_the_comfort_of_their_own_home_while_also_providing_a_valuable_service_to_coffee_shops">a food delivery app is a convenient and efficient way for customers to enjoy their favorite snacks from the comfort of their own home, while also providing a valuable service to coffee shops</string>
+    <string name="title_activity_login_dbactivity">LoginDBActivity</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="password">Password</string>
+    <string name="confirm_password">Confirm Password</string>
+</resources>

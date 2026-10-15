@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/login_bg"
+
+    tools:context=".Activity.UserProfile">
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="30dp"
+        app:srcCompat="@drawable/profile" />
+
+    <TextView
+        android:id="@+id/usernameTxt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="230dp"
+        android:layout_marginEnd="30dp"
+        android:background="@drawable/category_background4"
+        android:ems="10"
+        android:minHeight="48dp"
+        android:paddingStart="10dp"
+        android:paddingTop="10dp"
+        android:text="username"
+        android:textColor="@color/black"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/nameTxt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="290dp"
+        android:layout_marginEnd="30dp"
+        android:background="@drawable/category_background4"
+        android:ems="10"
+        android:minHeight="48dp"
+        android:paddingStart="10dp"
+        android:paddingTop="10dp"
+        android:text="name"
+        android:textColor="@color/black"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/userEmailTxt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="350dp"
+        android:layout_marginEnd="30dp"
+        android:background="@drawable/category_background4"
+        android:ems="10"
+        android:minHeight="48dp"
+        android:paddingStart="10dp"
+        android:paddingTop="10dp"
+        android:text="email"
+        android:textColor="@color/black"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/userContactTxt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="410dp"
+        android:layout_marginEnd="30dp"
+        android:background="@drawable/category_background4"
+        android:ems="10"
+        android:minHeight="48dp"
+        android:paddingStart="10dp"
+        android:paddingTop="10dp"
+        android:text="contact"
+        android:textColor="@color/black"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/userAddressTxt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="470dp"
+        android:layout_marginEnd="30dp"
+        android:background="@drawable/category_background4"
+        android:ems="10"
+        android:gravity="start|top"
+        android:minHeight="48dp"
+        android:paddingStart="10dp"
+        android:paddingTop="10dp"
+        android:text="address"
+        android:textColor="@color/black"
+        android:textSize="16sp" />
+
+</RelativeLayout>
